@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <title>Online Digital Marketing Agency Web Strategy Expert Social Channels Mumbai</title>
+<link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>  
+     <!--[if gte IE 9]>        	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+		<![endif]-->        
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+    </head> 
+    <body>
+        <div class="nav-container">
+<div id="logo">
+<img src="/static/images/logo-dimaag.png">
+</div><div id="header_content">
+<h1 align="center">DimaagIndia</h1>
+</div>
+</div>
+
+<br> <!-- Upload form. Note enctype ttribute! -->
+        <form action="{% url "list" %}" method="post" enctype="multipart/form-data"> {% csrf_token %}
+          
+<div class="form-group">
+
+
+            <p>{{ form.docfile.label_tag }} {{ form.docfile.help_text }}</p>
+
+            <p>
+                <div class="panel-warning">
+ <div class="panel-heading">{{ form.docfile.errors }}</div>
+</div> 
+                {{ form.docfile }}
+            </p>
+<input name="input1" class="form-control" >
+<input name="input2" class="form-control">
+<input name="input3" class="form-control">
+<input name="email" type="text" class="form-control">
+ 	<br><br><select name="algo">
+		<option value="1">Dt1 Algo</option>
+		<option value="2">Dt2 Algo</option>
+		<option value="3">Dt3 Algo</option>
+	   </select><br>
+<br><input type="submit" class="btn btn-success" value="Upload"/>
+</div>
+        </form>
+<div class="footer-container"><footer class="bg-primary short-2"><div class="container">
+<div class="row">
+<div class="col-sm-12"><span class="text-white">© 2014-2016. The Digital Marketing Agency.</span></div></div></div></footer></div>
+    <!-- JS for Core jQuery v1.11.3-->
+         <script src="/static/js/jquery.min.js"></script>
+         <!-- JS for Core Bootstrap-->
+         <script src="/static/js/bootstrap.js"></script>
+         <!-- JS for Bootstrap Select-picker-->
+         <script src="/static/js/bootstrap-select.min.js"></script>
+</body>
+
+</html>

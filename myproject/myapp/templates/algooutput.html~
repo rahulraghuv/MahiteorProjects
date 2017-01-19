@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact US</title>
+</head>
+<body>
+<p>Output::{{data}}<br>
+1st Input: {{input1}}<br>
+2nd Input: {{input2}}<br>
+3rd Input:{{input3}}<br>
+Algo selected:{{algo}}</p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    </head> 
+    <body>
+        <div id="header">
+<div id="logo">
+<img src="/static/images/logo-dimaag.png">
+</div>
+<div id="header_content">
+<h1 align="center">DimaagIndia</h1>
+</div>
+</div>
+        <div id="main">
+<p>{% for var in data %}
+     {{var}}
+{% endfor %}<br><hr>
+1st Input: {{input1}}<br><hr>
+2nd Input: {{input2}}<br><hr>
+3rd Input:{{input3}}<br><hr>
+Algo selected:{{algo}}</p><hr>
+</div>
+        <div id="blue">
+
+</div>
+    </body>
+</html>
